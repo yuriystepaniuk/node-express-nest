@@ -12,13 +12,17 @@
     "watch:server": "ts-node src/main.ts --watch"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "dotenv": "^16.3.1",
     "express": "^5.2.1",
-    "mongoose": "^7.3.4",
-    "joi": "18.2.1"
+    "joi": "18.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^7.3.4"
   },
   "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
     "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^25.9.1",
     "rimraf": "6.0.1",
     "ts-node": "10.9.2",
